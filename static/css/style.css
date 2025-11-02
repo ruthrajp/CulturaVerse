@@ -1,0 +1,57 @@
+body {
+    background: url("/static/images/temple.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 10px;
+}
+
+.highlight {
+    color: #f5d742;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f5d742;
+}
+
+main {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 30px 50px;
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: #f5d742;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    margin: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn.secondary {
+    background-color: white;
+    color: black;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
